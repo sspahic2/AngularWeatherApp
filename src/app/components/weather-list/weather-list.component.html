@@ -1,0 +1,12 @@
+<h2 style="margin-top: 55px;">Weather list</h2>
+<div *ngFor="let w of weathers" class="container">
+    <div class="row" style="margin-top: 15px;">
+
+        <div class="col justify-content-center">
+
+            <app-weather-item [weather]="w"></app-weather-item>
+
+        </div>
+        
+    </div>
+</div>
